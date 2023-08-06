@@ -4,9 +4,9 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <ul className="flex justify-between items-center mx-5 my-3">
+        <ul className="flex justify-between items-center px-7 py-5 bg-[#e6e6e6]">
           <li>
-            <Link href="/">Nico</Link>
+            <Link href="/">Home</Link>
           </li>
           <ul className="flex justify-center items-center gap-10">
             <li>
